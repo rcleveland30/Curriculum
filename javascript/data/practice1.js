@@ -22,7 +22,7 @@
 
 // console.log(madLib)
 
-const peopleOnZoom = ['Oscar', 'Whitney', 'Hodan', 'Ron', 'Anna'];
+// const peopleOnZoom = ['Oscar', 'Whitney', 'Hodan', 'Ron', 'Anna'];
 
 // peopleOnZoom.push ('Bob'); // no "=" for dot push function, adds to end of the array
 
@@ -32,10 +32,22 @@ const peopleOnZoom = ['Oscar', 'Whitney', 'Hodan', 'Ron', 'Anna'];
 
 // console.log(peopleOnZoom.indexOf ('Hodan')) //returns the index of element or negative one if it isn't
 
-const myName = 'Ron Cleveland, II'
+// const myName = 'Ron Cleveland, II'
 
-const greeting = `My friend\'s\ name is ${myName}`
+// const greeting = `My friend\'s\ name is ${myName}`
 
-myName.charAt(6) // identifies the character in that index place
+// myName.charAt(6) // identifies the character in that index place
 
 // typeof (data type) = identifies the data type being used
+
+//```
+//function tipAmount (billAmount, tipPerc){
+//    return billAmount * tipPerc;
+
+/// console.log(tipAmount(27.88, .15))
+
+// "Length of in Array" Rappers
+
+// const rappers = ['Big KRIT', 'Kendrick', 'Big Sean', 'Wale']
+
+// console.log(rappers.length)

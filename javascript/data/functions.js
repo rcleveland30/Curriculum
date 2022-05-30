@@ -1,3 +1,23 @@
+//How to invoke functions
+function myGreeting() {
+  console.log('Hello world')
+};
+
+//Newer way to do it
+const myOtherGreeting = () => {
+  console.log('Hello from my fat arrow function')
+}
+
+// myOtherGreeting() //invoke function by writing function name after entire function
+
+//Passing parameters/variables
+
+function myPersonalizedGreeting (name) {
+  console.log('Hello, ' + name)  
+};
+
+// myPersonalizedGreeting('Ron') // <--Hello, Ron  //string interpolation works too (Hello ${name})
+
 // declare the function, name the function parentheses, curly braces, insert function information
 function whoAreYou(name, location, subject) {
   //    console.log(`My name is ${name}, I am from ${location}, and my favorite subject is ${subject}.`)
