@@ -46,8 +46,12 @@
 
 /// console.log(tipAmount(27.88, .15))
 
-// "Length of in Array" Rappers
+//"Length of in Array" Rappers
 
-// const rappers = ['Big KRIT', 'Kendrick', 'Big Sean', 'Wale']
+const rappers = ['Big KRIT', 'Kendrick', 'Big Sean', 'Wale']
 
-// console.log(rappers.length)
+function arrayLength (array){
+    return array.length
+}
+
+console.log(arrayLength(rappers))
