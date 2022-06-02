@@ -41,10 +41,11 @@
 // typeof (data type) = identifies the data type being used
 
 //```
-//function tipAmount (billAmount, tipPerc){
-//    return billAmount * tipPerc;
+function tipAmount (billAmount, tipPerc){
+    return billAmount * tipPerc;
+}
 
-/// console.log(tipAmount(27.88, .15))
+ console.log(tipAmount(27.88, .15))
 
 //"Length of in Array" Rappers
 
