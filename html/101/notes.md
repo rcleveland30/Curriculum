@@ -13,6 +13,8 @@ Browsers read HTML and in a sense, HTML is like a big, long string.
 Browsers can read files or you can start a server in VS code with  **Go Live**. 
 
 ### Most common elements
+Attributes follow the elements. 
+
 #### Semantic elements include
 ```
 <ul> - unordered list
