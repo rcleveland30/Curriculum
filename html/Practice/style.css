@@ -1,10 +1,35 @@
+.y-wrap {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.stats-block {
+    margin: 50px 0;
+    /* to clear the float */
+}
+
+.stats-block__stats {
+    float: left;
+}
+
+.stats-block__stats--title {
+    width: 30%;
+}
+
+.stats-block__stats--data {
+    width: 70%;
+}
+/*
+BEM Block-Element-Modifier
+*/
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0);
 }
 
 .light-gray {
-    color: gray
+    color: rgb(165, 165, 165)
 }
 
 .header-line {

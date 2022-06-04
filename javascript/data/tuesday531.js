@@ -206,14 +206,14 @@
 
 // console.log(multFive([3, 7, 10]))
 
-//Attempt #2 - WINNER
+// //Attempt #2 - WINNER
 // const multFive = [3, 7, 10, 12]
 // for (let i = 0; i < multFive.length; i++) {
 //     multFive[i] = multFive[i] * 5;
 // }
 // console.log(multFive)
 
-// write a function that prints the mileage of each of the cars in this array of objects -- WINNER
+// Write a function that prints the mileage of each of the cars in this array of objects -- WINNER
 // const myCars = [
 //     { make: 'Chevy', model: 'Camaro', year: 2014, mileage: 75000 },
 //     { make: 'Ford', model: 'Mustang', year: 2021, mileage: 8000 },

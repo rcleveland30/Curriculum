@@ -41,18 +41,18 @@
 // typeof (data type) = identifies the data type being used
 
 //```
-function tipAmount (billAmount, tipPerc){
-    return billAmount * tipPerc;
-}
+// function tipAmount (billAmount, tipPerc){
+//     return billAmount * tipPerc;
+// }
 
- console.log(tipAmount(27.88, .15))
+//  console.log(tipAmount(27.88, .15))
 
-//"Length of in Array" Rappers
+// //"Length of in Array" Rappers
 
-const rappers = ['Big KRIT', 'Kendrick', 'Big Sean', 'Wale']
+// const rappers = ['Big KRIT', 'Kendrick', 'Big Sean', 'Wale']
 
-function arrayLength (array){
-    return array.length
-}
+// function arrayLength (array){
+//     return array.length
+// }
 
-console.log(arrayLength(rappers))
+// console.log(arrayLength(rappers))
