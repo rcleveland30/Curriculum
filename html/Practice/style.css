@@ -1,10 +1,24 @@
+.body { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+
+header p {
+    margin-top: 12px 0 20px;
+    text-transform: uppercase;
+}
+
 .y-wrap {
     margin: 0 auto;
     width: 90%;
 }
 
 .stats-block {
-    margin: 50px 0;
+    margin: 14px 0;
     /* to clear the float */
 }
 
@@ -13,27 +27,93 @@
 }
 
 .stats-block__stats--title {
-    width: 30%;
+    width: 25%;
 }
 
 .stats-block__stats--data {
-    width: 70%;
+    width: 75%;
 }
 /*
 BEM Block-Element-Modifier
 */
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 0, 0);
-}
-
 .light-gray {
     color: rgb(165, 165, 165)
 }
 
+.color-body-text {
+    color: #414141;
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+main p,
+main li {
+    line-height: 1.4rem;
+}
+
+main p {
+    margin-top: 0;
+
+}
 .header-line {
-    background-color: rgb(85, 214, 128);
-    height: 10px;
-    
+    background-color: #33c6b3;
+    height: 10px; 
+}
+
+.subheading {
+    font-size: 1.25rem;
+    padding-right: 30px;
+    text-transform: uppercase;
+}
+
+.date {
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.date ~ div span{
+    font-weight: 700;
+}
+
+.color-heading {
+    color: #010101;
+}
+
+.subheading--dark-gray {
+    color: #242424;
+}
+
+.list {
+    margin: 6px 0 24px;
+    padding-left: 36px;
+}
+
+.list--double {
+    display: inline-block;
+    margin-top: 0;
+}
+
+.list--last {
+    margin-left: 40px;
+}
+
+.cf:before,
+.cf:after {
+    content:"";
+    display: table;
+}
+
+.cfafter {
+    clear:both
+}
+
+.education ~ span {
+    font-weight: 700;
+}
+
+.education p {
+    margin: 4px 0;
 }
