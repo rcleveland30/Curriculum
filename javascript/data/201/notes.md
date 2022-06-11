@@ -4,7 +4,7 @@
 ### Objects
 An object describes something. It lives inside of opening and closing curly braces and is organized as key/value pairs separated by commas
 ```
-constant car = {
+const car = {
     color: 'green',
     mileage: 67382,
     isNew: false
