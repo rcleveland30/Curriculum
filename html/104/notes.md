@@ -1,4 +1,4 @@
-# HTML 104
+# HTML 104 - Elements to Avoid
 
 ## Some elements come with built-in styles but it is better to avoid them and style with CSS
 
