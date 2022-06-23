@@ -1,0 +1,32 @@
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numbers div {
+    background-color: #ccc;
+    cursor: pointer;
+    flex: 0 1 20%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.display {
+    border: 1px solid #999;
+    padding: 14px 6px;
+}
+
+.operators {
+    display: flex;
+    font-size: 2rem;
+}
+
+.operators div {
+    background-color: aliceblue;
+    cursor: pointer;
+    flex: 0 1 20%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}

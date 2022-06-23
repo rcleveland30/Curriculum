@@ -1,0 +1,36 @@
+body {
+
+}
+
+.output {
+    border: 1px solid black;
+    height: 30px;
+    width: 100px;
+}
+
+#calculator {
+    background-color: aqua;
+}
+
+.digits-container {
+    display: flex;
+}
+
+.digits {
+    display:flex;
+    flex: 3 0 auto;
+    flex-wrap: wrap;
+}
+
+.digits div {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    flex: 1 0 32%;
+    max-width: 102px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.equals {
+    flex: 1 0 auto; 
+}
