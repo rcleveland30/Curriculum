@@ -1,0 +1,21 @@
+* {
+    background-color: skyblue;
+}
+
+.btn {
+    color: firebrick;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;;
+}
+
+::placeholder {
+    color: #333
+}
+
+.zip-input {
+    color: coral;
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+}
+
