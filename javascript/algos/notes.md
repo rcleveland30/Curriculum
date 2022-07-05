@@ -1,4 +1,4 @@
-```
+```javascript
 // A Needle in a Haystack
 
 function findNeedle(haystack) {
@@ -8,9 +8,9 @@ function findNeedle(haystack) {
       }
     }
   }
-
-
 ```
+
+```javascript
 
 // If you can't sleep, just count sheep! 
 
@@ -26,6 +26,7 @@ var countSheep = function (num){
 
 
 ```
+```javascript
 
 //Quarter of the Year
 
@@ -49,6 +50,7 @@ const quarterOf = (month) => {
   }
 
 ```
+```javascript
 
 // How good are you really?
 
@@ -64,7 +66,7 @@ function betterThanAverage(everyone, you) {
   
   return you > average;
 }
-```
+
 function betterThanAverage(x,y) {
   const total = x.reduce(function (prevValue, currValue) {
     return prevValue + currValue;
@@ -73,8 +75,8 @@ function betterThanAverage(x,y) {
     return y > average
 }
 
-
 ```
+```javascript
 // Fake Binary
 
 function fakeBin(x){
@@ -85,8 +87,10 @@ function fakeBin(x){
   });
   return result.join('')
 }
-
 ```
+
+
+```javascript
 
 // Convert number to reversed array of digits
 
@@ -94,6 +98,15 @@ function digitize(n) {
   const strArr = n.toString().split('').reverse();
   const result = strArr.map(item => item * 1); 
   return result
+}
+
+```
+```javascript
+
+// Use regex to validate pin number.
+
+function validatePIN (pin) {
+    return /^(\d{4}|\d{6})$/.test(pin);
 }
 
 ```
