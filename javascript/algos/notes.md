@@ -110,3 +110,49 @@ function validatePIN (pin) {
 }
 
 ```
+
+
+// Write a function to remove the first and last characters from a string.
+```javascript
+function removeChar(str){
+  return str.slice(1,-1)
+};
+
+```
+
+
+//Disemvowel Trolls
+```javascript
+function disemvowel(str) {
+  const vowels = ["a", "e", "i", "o", "u"]
+  
+  const stringAsArray = str.split("")
+  
+  for (i = 0; i < stringAsArray.length; i++) {
+    if (vowels.includes(stringAsArray[i].toLowerCase())) {
+      stringAsArray[i] = ""
+    }
+  }
+  
+  return stringAsArray.join("")
+}
+
+```
+
+// Odd or Even
+```javascript
+function oddOrEven(array) {
+  let prime = 0
+   for (let i = 0 ; i < array.length; i++)
+     prime += array[i];
+     if (prime % 2 === 0) {
+       return 'even'
+     } else if (prime === 0) {
+     return 'even'
+     } else { 
+       return 'odd'
+     }
+}
+
+
+```
