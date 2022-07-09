@@ -6,3 +6,7 @@ function filter_list(l) {
         return true
     })
   }
+
+  function filter_list(l) {
+    return l.filter(el => typeof(el) === 'number')
+  }
