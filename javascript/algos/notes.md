@@ -89,9 +89,7 @@ function fakeBin(x){
 }
 ```
 
-
 ```javascript
-
 // Convert number to reversed array of digits
 
 function digitize(n) {
@@ -101,8 +99,8 @@ function digitize(n) {
 }
 
 ```
-```javascript
 
+```javascript
 // Use regex to validate pin number.
 
 function validatePIN (pin) {
@@ -112,8 +110,8 @@ function validatePIN (pin) {
 ```
 
 
-// Write a function to remove the first and last characters from a string.
 ```javascript
+// Write a function to remove the first and last characters from a string.
 function removeChar(str){
   return str.slice(1,-1)
 };
@@ -121,8 +119,8 @@ function removeChar(str){
 ```
 
 
-//Disemvowel Trolls
 ```javascript
+//Disemvowel Trolls
 function disemvowel(str) {
   const vowels = ["a", "e", "i", "o", "u"]
   
@@ -139,8 +137,8 @@ function disemvowel(str) {
 
 ```
 
-// Odd or Even
 ```javascript
+// Odd or Even
 function oddOrEven(array) {
   let prime = 0
    for (let i = 0 ; i < array.length; i++)
@@ -156,3 +154,104 @@ function oddOrEven(array) {
 
 
 ```
+```javascript
+//In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
+
+function filter_list(l) {
+    return l.filter (digit => {
+      if (typeof digit === 'number' || digit === 0)
+        return true
+    })
+  }
+
+  function filter_list(l) {
+    return l.filter(el => typeof(el) === 'number')
+  }
+```
+
+```javascript
+// Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
+function twiceAsOld (x,y) {
+    const y2 = y * 2;
+
+    if (x === y2) return 0;
+
+    if (x > y2) {
+        return x - y2; 
+    }
+    if (x < y2) {
+        return y2 -x
+    }
+ }
+ ```
+
+ ```javascript
+ //  Write a function that will check if two given characters are the same case.
+ function sameCase(a, b){
+ //97-122 lowercase characters 65-90 uppercase characters  
+  const _a = a.charCodeAt();
+  const _b = b.charCodeAt();
+  
+  const checkIsLetter = (x, y) => {
+    return (
+      ((x >= 65 && x <= 90) || (x >= 97 && x <= 122)) && 
+      ((y >= 65 && y <= 90) || (y >= 97 && y <= 122))
+    );
+  };
+  
+  const isLetter = checkIsLetter(_a, _b)
+  
+  const checkIsMatch = (x,y) => {
+    return (
+      (x >= 65 && x <= 90 && y >= 65 && y <= 90) ||
+      (x >= 97 && x <= 122 && y >= 97 && y <= 122)
+    )
+}
+  
+  const isMatch =  checkIsMatch( _a, _b);
+
+  if (!isLetter) return -1;
+  if (isMatch) {
+    return 1;
+  } else {
+    return 0;
+  } 
+}
+ 
+ ```
+
+ ```javascript
+ // Create a function with two arguments that will return an array of the first (n) multiples of (x).
+function countBy(x, n) {
+    let z = [];
+    let index = 1;
+    
+    while (z.length < n) {
+      z.push(x * index);
+      index++
+    }  
+    return z;
+  }
+//__________________________________________________________
+  function countBy(x, n) {
+    let z = [];
+    for (let i = 1; i <= n; i++) {
+        z.push(x * i)
+      }
+    return z;
+  }
+ ```
+
+```javascript
+// Our football team finished the championship. The result of each match look like "x:y". Results of all matches are recorded in the collection.
+function points(games) {
+    let total = 0;
+    for (let i = 0; i < games.length; i++) {
+        const [x, y] = games[i].split(':');
+        if(x > y) total += 3;
+        if (x < y) total += 0;
+        if (x === y) total += 1;
+    }
+    return total; 
+}
+ ```
