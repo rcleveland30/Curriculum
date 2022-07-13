@@ -261,4 +261,8 @@ function points(games) {
 function reverseWords(str) {
   return str.split("").reverse().join("").split(" ").reverse().join(" ");
 }
+
+function reverseWords(str) {
+  return str.split(" ").map((word) => word.split("").reverse().join("")).join(" ");
+}
  ```
