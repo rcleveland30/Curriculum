@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.dadHead {
+    align-items: center;
+    display: flex;
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+h1 {
+    color: red;
+    display: flex;
+    font-family:'Luckiest Guy', cursive;
+    font-size: 3rem;
+    height: 100%;
+    justify-content: center;
+    margin: 2px;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.button-contain {
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+}
+
+.joke-container {
+    align-items: center;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    margin: 10px;
+}
+
+.joke-button {
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0px 10px;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.likes,
+.hate {
+    align-items: center;
+    display: flex;
+    font-size: 2.0rem;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.result-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.like-button,
+.hate-button {
+    border-radius: 5px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    color: whitesmoke;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    transition: 0.5s;
+    width: 100px;
+}
+
+.like-button:after,
+.hate-button:after {
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: 10px;
+    transition: 0.5s;
+}
+
+.like-button:hover,
+.hate-button:hover {
+    padding-right: 24px;
+    padding-left:8px;
+}
+
+.like-button:hover:after,
+.hate-button:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.like-button {
+    background-color: rgb(8, 105, 8);
+}
+
+.hate-button {
+    background-color: crimson;
+}
