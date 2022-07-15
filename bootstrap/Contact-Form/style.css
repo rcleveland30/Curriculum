@@ -1,0 +1,16 @@
+.wrapper {
+    margin: 40px;
+}
+
+.messageBox {
+    height: 150px;
+    text-align: start;
+}
+
+.form-label {
+    color: #EE3E41;
+}
+
+.btn-primary {
+    color: #EE3E41;
+}
