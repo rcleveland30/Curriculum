@@ -1,0 +1,71 @@
+h1 {
+    font-size: 1.4rem;
+}
+.awesome {
+    align-items: center;
+    display: flex;
+    font-size: 5rem;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.awesomeness {
+    align-items: center;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: center;
+    margin: 10px;
+}
+
+.item-wrapper {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    font: 1.2rem;
+    justify-content: center;
+}
+
+.list-item {
+    margin: 25px 75px;
+}
+
+.awesome-ppl {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.awesome-wrapper {
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+.the-miz {
+    width: 365px;
+    height: 243px;
+}
+
+.miz-dow {
+    width: 219px;
+    height: 243px;
+}
+
+p span {
+    font-weight: bold;
+}
+
+.footer {
+    align-items: center;
+    background-color: red;
+    bottom: 0;
+    color: white;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
