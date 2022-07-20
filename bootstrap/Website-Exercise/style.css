@@ -58,6 +58,11 @@ p span {
     font-weight: bold;
 }
 
+hr {
+    margin: 0 25% 0 25%;
+    width: 90%;
+}
+
 .footer {
     align-items: center;
     background-color: red;
