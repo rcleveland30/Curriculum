@@ -91,7 +91,6 @@ function fakeBin(x){
 
 ```javascript
 // Convert number to reversed array of digits
-
 function digitize(n) {
   const strArr = n.toString().split('').reverse();
   const result = strArr.map(item => item * 1); 
