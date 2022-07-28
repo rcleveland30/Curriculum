@@ -1,0 +1,22 @@
+const items = [
+    'broccoli',
+    'cell phone',
+    'chair',
+    'checkbook',
+    'chocolate',
+    'clay pot',
+    'clothes',
+    'credit card',
+    'deodorant',
+    'flowers',
+    'glow sticks',
+    'lip gloss',
+    'plate',
+    'playing cards',
+    'ring',
+    'scotch tape',
+    'soda can',
+    'sofa',
+    'street lights',
+    'tweezers'
+  ];
