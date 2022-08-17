@@ -27,7 +27,7 @@
 - "dependencies" list production libraries
 - "devDependencies" list the libraries used to write the code itself
 - is created by `npm init -y`
-- determines the contents of node modules
+- determines the contents of node modules, keeps track
 
 ### node_modules
 - contains all third-party modules installed with `npm`
