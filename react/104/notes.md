@@ -15,7 +15,11 @@
 ---
 
 #### Key terms and phrases
+#### Key terms and phrases
+1. component
+1. HTML
 1. keypress
+1. noun
 1. `onChange`
 1. re-render
 1. React
